@@ -1,0 +1,365 @@
+@font-face
+  {
+
+    font-family: 'ballpark';
+    src: url('TPExercice/polices/ballpark.eot');
+    src: url('TPExercice/polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('TPExercice/polices/ballpark.woff') format('woff'),
+         url('TPExercice/polices/ballpark.ttf') format('truetype'),
+         url('TPExercice/polices/ballpark.svg#ballpark') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+@font-face
+  {
+
+    font-family: 'dayrom';
+    src: url('TPExercice/polices/dayrom.eot');
+    src: url('TPExercice/polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('TPExercice/polices/dayrom.woff') format('woff'),
+         url('TPExercice/polices/dayrom.ttf') format('truetype'),
+         url('TPExercice/polices/dayrom.svg#ballpark') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+body
+    {
+      background-color: rgb(255,248,218);
+      font-family: 'Trebuchet MS', Arial, sans-serif;
+    }
+#pagecomplete
+    {
+      width: 950px;
+      margin: auto;
+    }
+header
+    {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        align-items: flex-end;
+        padding-right: 20px;
+        border-bottom: 1px solid rgb(218,195,165);
+        font-family: 'dayrom';
+    }
+
+nav
+    {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       margin-bottom: 25px;
+       width: 350px;
+       height: 20px;
+    }
+
+nav a
+    {
+      color: black;
+      text-decoration: none;
+      font-size: 1.4em;
+    }
+
+nav a:hover
+    {
+      color: rgb(199,146,129);
+      text-decoration: underline;
+    }
+
+#titreprincipal
+    {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+#titreprincipal h1
+   {
+      font-family: 'ballpark', arial;
+      margin: 0px 0px 0px 0px;
+      padding-bottom: 0px;
+      font-size: 2.6em;
+   }
+
+#titreprincipal h2
+    {
+      font-family: 'dayrom', arial;
+      margin: 0px 0px 15px 0px;
+      padding-top: 0px;
+      font-size: 1.2em
+    }
+
+#baniere
+    {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      height: 210px;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: url(TPExercice/images/sanfrancisco2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 8px;
+      box-shadow: 2px 2px rgb(159,151,131);
+    }
+
+  #bandeau
+    {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      padding-right: 25px;
+      padding-left: 10px;
+      justify-content: space-between;
+      background-color: rgba(0,0,0,0.6);
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      color: white;
+    }
+
+  #bandeautexte
+    {
+      font-size: 0.8em;
+    }
+
+  #lien
+    {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 8px;
+      padding-right: 8px;
+      width: 100px;
+      height: 30px;
+      background: linear-gradient(to right, rgb(147,52,53), rgb(165,87,88));
+      border-radius: 3px;
+    }
+
+  #lien a
+    {
+      color: white;
+      text-decoration: none;
+    }
+
+  section
+    {
+      display: flex;
+      margin-top: 20px;
+      text-align: justify;
+    }
+
+  section p
+    {
+      font-size: 0.9em;
+    }
+
+  section h1
+    {
+      font-size: 1.5em;
+      font-weight: normal;
+    }
+
+  #titrearticle
+    {
+      height: 60px;
+    }
+
+  article
+    {
+      flex: 3;
+      width: 600px;
+    }
+
+  aside
+    {
+      flex: 1.2;
+      position: relative;
+      max-height: 450px;
+      background-color: rgb(111,105,99);
+      margin-left: 20px;
+      padding-right: 10px;
+      padding-left: 10px;
+      border-radius: 5px;
+      box-shadow: 2px 2px rgb(159,151,131);
+      color: white;
+
+    }
+
+  aside h1
+    {
+      font-size: 1.3em;
+      font-weight: normal;
+    }
+
+  aside p
+    {
+      margin-bottom: 20px;
+    }
+
+  #bulle
+    {
+      position: absolute;
+      top: 150px;
+      left: -10px;
+    }
+
+  #photoaside
+    {
+      display: block;
+      margin: auto;
+    }
+
+  #asidelogo img
+    {
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+
+  article
+    {
+      margin-right: 4px;
+    }
+
+  #titrearticle
+    {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+  #titrearticle h1
+    {
+      margin-left: 10px;
+    }
+
+
+  #titrearticle h1
+    {
+      margin-left: 10px;
+    }
+
+  footer
+    {
+      background:  url('TPExercice/images/ico_top.png') no-repeat top center, url('TPExercice/images/separateur.png') repeat-x top, url('TPExercice/images/ombre.png') repeat-x top;
+      padding-top: 25px;
+      display: flex;
+      height: 150px;
+      margin-right: auto;
+      margin-left: auto;
+      justify-content: space-between;
+    }
+
+  footer h1
+    {
+      font-size: 1em;
+    }
+
+  #tweet
+    {
+      width: 28%;
+    }
+
+  #photo
+    {
+      width: 40%;
+    }
+
+  #mesamis
+    {
+      width: 30%;
+    }
+
+   #listeamis
+    {
+      display: flex;
+      margin-top: 0px;
+      justify-content: space-between;
+    }
+
+  #mesamis ul
+    {
+      list-style-image: url(TPExercice/images/ico_liensexterne.png);
+      padding-left: 7px;
+    }
+
+  #mesamis a
+    {
+      color: red;
+      text-decoration: none;
+      font-size: 0.8em;
+    }
+
+  #photo img
+    {
+      margin-right: 3px;
+    }
+  @media screen and (max-width: 1024px)
+    {
+      #pagecomplete
+        {
+          width: auto;
+          margin: auto;
+        }
+      nav
+        {
+           flex-direction: column;
+           justify-content: space-around;
+           margin-bottom: 25px;
+           width: auto;
+           height: auto;
+        }
+
+      nav a
+        {
+          color: black;
+          text-decoration: none;
+          font-size: 1.0em;
+        }
+      #baniere
+        {
+          display: none;
+        }
+      section
+        {
+          flex-direction: column;
+        }
+      article
+        {
+          width: auto;
+        }
+      aside
+        {
+          margin: auto;
+        }
+      #photoaside
+        {
+          float: right;
+          margin-left: 10px;
+          margin-top: 0px;
+        }
+      #bulle
+        {
+          display: none;
+        }
+      #asidelogo
+        {
+          text-align: center;
+        }
+
+    }
+n: center;
+        }
+
+    }
+       {
+          text-align: center;
+        }
+
+    }
