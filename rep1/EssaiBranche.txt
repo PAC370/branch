@@ -1,0 +1,15 @@
+Ceci est un fichier pour test sur le fonctionnement des branches avec Git & GitHub.
+
+1er modification dans la branche master.
+
+Execution d'un Add et 2ieme modification dans la branche master.
+
+Insertion de texte ici pour essai sur divergence des branches.
+
+Execution d'un add et 3ieme modification dans la branche master, suivi d'un commit direct.
+
+4ieme modif dans la branch1: modification de la 3ieme modif et ajout de cette ligne suivi d'un add et d'un push.
+
+5ieme modif dans branch1 suivit d'un commit.
+
+6ieme modif dans la branche master.
