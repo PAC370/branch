@@ -4,4 +4,6 @@ Ceci est un fichier pour test sur le fonctionnement des branches avec Git & GitH
 
 Execution d'un Add et 2ieme modification dans la branche master.
 
-Execution d'un add et 3ieme modification dans la branche master, suivi d'un commit direct et d'un push.
+Execution d'un add et 3ieme modification dans la branche master, suivi d'un commit direct.
+
+4ieme modif dans la branch1: modification de la 3ieme modif et ajout de cette ligne suivi d'un add et d'un push. 
