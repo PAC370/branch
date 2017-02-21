@@ -1,1 +1,5 @@
 Ceci est un fichier pour test sur le fonctionnement des branches avec Git & GitHub.
+
+1er modification dans la branche master.
+
+Execution d'un Add et 2ieme modification dans la branche master.
